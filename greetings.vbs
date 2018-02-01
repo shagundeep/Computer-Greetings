@@ -1,5 +1,5 @@
 Set Sapi = Wscript.CreateObject("SAPI.SpVoice")
- dim str
+
  if hour(time) < 12 then
  Sapi.speak "Good Morning "
  else
